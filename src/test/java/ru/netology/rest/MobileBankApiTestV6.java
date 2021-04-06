@@ -23,7 +23,7 @@ class MobileBankApiTestV6 {
       // Given - When - Then
       // Предусловия
       given()
-          .spec(requestSpec) // со спецификацией проще (особенно когда много тестов)
+          .spec(requestSpec)
       // Выполняемые действия
       .when()
           .get("/demo/accounts")
